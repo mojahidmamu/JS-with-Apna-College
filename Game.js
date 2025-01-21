@@ -1,3 +1,53 @@
+// const choices = document.querySelectorAll(".choice");
+// const resultMessage = document.getElementById("result-message");
+// const playerScoreSpan = document.getElementById("player-score");
+// const computerScoreSpan = document.getElementById("computer-score");
+// let playerScore = 0;
+// let computerScore = 0;
+// const CHOICES = ["rock", "paper", "scissors"];
+
+// function getWinner(playerChoice, computerChoice) {
+//   if (playerChoice === computerChoice) {
+//     return "draw";
+//   }
+//   if(
+//     (playerChoice === 'rock' && computerChoice === 'paper') ||
+//     (playerChoice === 'paper' && computerChoice === 'scissors') ||
+//     (playerChoice === 'scissors' && computerChoice === '')
+//   ) {
+//     return  'Player';
+//   }
+//   return 'Computer';
+// }
+
+// function getComputerChoice () {
+//     const randomIndex = Math.floor(Math.random() * CHOICES.length);
+//   return CHOICES[randomIndex];
+// }
+
+// function updateResult(playerChoice, computerChoice, winner) {
+//   if(winner === 'draw'){
+//     resultMessage.textContent = `It is a draw ${playerChoice}`
+//   } else if (winner === 'player') {
+//     resultMessage.textContent = `you are win! ${playerChoice} beats ${computerChoice}`
+//     playerScore++;
+//     playerScoreSpan.textContent = playerScore;
+//   } else {
+//     resultMessage.textContent = `you lose! ${computerChoice} beats ${playerChoice} `
+//     computerScore++;
+//     computerScoreSpan.textContent = computerScore;
+//   }
+// }
+
+// choices.forEach((choice) => {
+//     choice.addEventListener( 'click', () => {
+//       const playerChoice = choice.dataset.choice;
+//       const computerChoice = getComputerChoice();
+//       const winner = getWinner(playerChoice, computerScore);
+//       updateResult(playerChoice, computerChoice, winner)
+//     });
+//   });
+
 // Get DOM elements
 const choices = document.querySelectorAll('.choice');
 const resultMessage = document.getElementById('result-message');
