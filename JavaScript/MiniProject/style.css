@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.choices {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(171, 171, 135);
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 20px; 
+   
+}
+
+.choice {
+    height: 50px;
+    width: 80px;
+    border: 1px solid green;
+    background-color: blueviolet;
+    gap: 10px;
+}
