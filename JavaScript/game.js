@@ -31,19 +31,19 @@ function handleCellClick(e) {
   cell.classList.add('taken');
 
   if (checkWin()) {
-    message.textContent = `Player ${currentPlayer} wins!`;
+    message.textContent = `Player ${currentPlayer} wins! with Mojahid`;
     gameActive = false;
     return;
   }
 
   if (boardState.every(cell => cell !== '')) {
-    message.textContent = "It's a draw!";
+    message.textContent = "It's an draw! with Mojahid";
     gameActive = false;
     return;
   }
 
   currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-  message.textContent = `Player ${currentPlayer}'s turn`;
+  message.textContent = `Player ${currentPlayer}'s turn with Mojahid`;
 }
 
 // Check for win
