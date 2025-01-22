@@ -1,0 +1,3 @@
+// Phototype in JS
+// A js object is an entity having state and behavior (properties and method)
+// JS have a special property called Phototype...
