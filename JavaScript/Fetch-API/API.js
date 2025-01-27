@@ -51,7 +51,7 @@ const updateFlag = (element) => {
 
 btn.addEventListener("click", (evt) => {
   evt.preventDefault();
-  updateExchangeRate();
+  updateExchangeRate(); 
 });
 
 window.addEventListener("load", () => {
